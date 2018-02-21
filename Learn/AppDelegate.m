@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ProducerConsumerViewController.h"
+//#import "ProducerConsumerViewController.h"
+#import "TestViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window setRootViewController:[[ProducerConsumerViewController alloc] init]];
+    [self.window setRootViewController:[[TestViewController alloc] init]];
     [self.window makeKeyAndVisible];
     return YES;
 }
