@@ -10,8 +10,6 @@
 
 @interface AlipayActivityIndicator : UIView
 
-@property (nonatomic, assign) BOOL isStart;
-
-@property (nonatomic, strong) UIColor* tintColor;
+@property (nonatomic, assign) BOOL starting;
 
 @end
